@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ᴅᴏᴍɪɴɪᴏ ʙʟᴀᴄᴋ | 2 ꜱɪᴛᴇꜱ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        .card {
+            background: rgba(139, 92, 246, 0.2);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+        }
+        
+        .card-purple {
+            background: linear-gradient(to bottom right, rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.2));
+            border-color: rgba(168, 85, 247, 0.3);
+        }
+        
+        .card-blue {
+            background: linear-gradient(to bottom right, rgba(59, 130, 246, 0.2), rgba(168, 85, 247, 0.2));
+            border-color: rgba(59, 130, 246, 0.3);
+        }
+        
+        .card-pink {
+            background: linear-gradient(to bottom right, rgba(236, 72, 153, 0.2), rgba(168, 85, 247, 0.2));
+            border-color: rgba(236, 72, 153, 0.3);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(to right, #c084fc, #f9a8d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-text-hero {
+            background: linear-gradient(to right, #c084fc, #f9a8d4, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .btn {
+            font-weight: 600;
+            padding: 1.5rem 2rem;
+            font-size: 1.125rem;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-purple {
+            background: linear-gradient(to right, #9333ea, #db2777);
+        }
+        
+        .btn-purple:hover {
+            background: linear-gradient(to right, #7e22ce, #be185d);
+        }
+        
+        .btn-blue {
+            background: linear-gradient(to right, #2563eb, #9333ea);
+        }
+        
+        .btn-blue:hover {
+            background: linear-gradient(to right, #1d4ed8, #7e22ce);
+        }
+        
+        .btn-pink {
+            background: linear-gradient(to right, #db2777, #9333ea);
+        }
+        
+        .btn-pink:hover {
+            background: linear-gradient(to right, #be185d, #7e22ce);
+        }
+    </style>
+</head>
+<body class="min-h-screen" style="background: linear-gradient(to bottom right, #111827, #581c87, #111827);">
+    
+    <!-- Header -->
+    <header style="border-bottom: 1px solid rgba(168, 85, 247, 0.2); background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(10px);">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <div class="text-2xl font-bold gradient-text">
+                        ᴅᴏᴍɪɴɪᴏ ʙʟᴀᴄᴋ | 2 ꜱɪᴛᴇꜱ
+                    </div>
+                    <div class="text-xs" style="color: #d8b4fe;">#1 Gen Site</div>
+                </div>
+                <nav class="flex items-center gap-6">
+                    <a href="#services" style="color: #d8b4fe; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#e9d5ff'" onmouseout="this.style.color='#d8b4fe'">
+                        Services
+                    </a>
+                    <a href="#contact" style="color: #d8b4fe; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#e9d5ff'" onmouseout="this.style.color='#d8b4fe'">
+                        Contact
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="container mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h1 class="text-5xl font-bold mb-4 gradient-text-hero">
+                ᴅᴏᴍɪɴɪᴏ ʙʟᴀᴄᴋ | 2 ꜱɪᴛᴇꜱ
+            </h1>
+            <p class="text-xl mb-2" style="color: #e9d5ff;">#1 Sites | We're the best beaming site out there!</p>
+            <div class="inline-flex items-center gap-1 text-sm" style="color: #facc15;">
+                <span>⭐</span>
+                <span>Best Site</span>
+            </div>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            
+            <!-- Main Website Card -->
+            <div class="card card-purple p-8 text-center">
+                <h3 class="text-2xl font-bold mb-4" style="color: #e9d5ff;">Main Website</h3>
+                <a href="https://immortal.rs/?code=MzU0NDgzNzE1Njk0MTY5OTgzNl82MjI0ODM2MTkzODM1Mzg1Mzc1" target="_blank" rel="noopener noreferrer" class="btn btn-purple" style="color: white;">
+                    ENTER...
+                </a>
+            </div>
+
+            <!-- Best Website Card -->
+            <div class="card card-blue p-8 text-center">
+                <h3 class="text-2xl font-bold mb-4" style="color: #dbeafe;">Best Website</h3>
+                <a href="https://acortar.link/GMluaj" target="_blank" rel="noopener noreferrer" class="btn btn-blue" style="color: white;">
+                    ENTER...
+                </a>
+            </div>
+
+            <!-- Back Up Website Card -->
+            <div class="card card-pink p-8 text-center">
+                <h3 class="text-2xl font-bold mb-4" style="color: #fce7f3;">Back Up Website</h3>
+                <a href="https://www.logged.tg/auth/domino" target="_blank" rel="noopener noreferrer" class="btn btn-pink" style="color: white;">
+                    ENTER...
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer style="border-top: 1px solid rgba(168, 85, 247, 0.2); background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(10px); margin-top: 4rem;">
+        <div class="container mx-auto px-4 py-6 text-center">
+            <p class="text-sm" style="color: #d8b4fe;">ᴅᴏᴍɪɴɪᴏ ʙʟᴀᴄᴋ | 2 ꜱɪᴛᴇꜱ</p>
+        </div>
+    </footer>
+
+</body>
+</html>
